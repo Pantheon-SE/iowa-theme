@@ -4,9 +4,9 @@ dependencies:
   module:
     - help
   theme:
-    - uswds_base_subtheme
-id: uswds_base_subtheme_help
-theme: uswds_base_subtheme
+    - iowa_theme
+id: iowa_theme_help
+theme: iowa_theme
 region: help
 weight: -30
 provider: null
@@ -15,5 +15,5 @@ settings:
   id: help_block
   label: Help
   provider: help
-  label_display: '0'
-visibility: {  }
+  label_display: "0"
+visibility: {}

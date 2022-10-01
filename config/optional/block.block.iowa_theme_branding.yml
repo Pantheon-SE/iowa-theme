@@ -4,19 +4,19 @@ dependencies:
   module:
     - system
   theme:
-    - uswds_base_subtheme
-id: uswds_base_subtheme_branding
-theme: uswds_base_subtheme
+    - iowa_theme
+id: iowa_theme_branding
+theme: iowa_theme
 region: header
 weight: 0
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Site branding'
+  label: "Site branding"
   provider: system
-  label_display: '0'
+  label_display: "0"
   use_site_logo: true
   use_site_name: true
   use_site_slogan: false
-visibility: {  }
+visibility: {}

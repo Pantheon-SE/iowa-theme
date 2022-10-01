@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - uswds_base_subtheme
-id: uswds_base_subtheme_local_tasks
-theme: uswds_base_subtheme
+    - iowa_theme
+id: iowa_theme_local_tasks
+theme: iowa_theme
 region: content
 weight: 20
 provider: null
@@ -13,7 +13,7 @@ settings:
   id: local_tasks_block
   label: Tabs
   provider: core
-  label_display: '0'
+  label_display: "0"
   primary: true
   secondary: true
-visibility: {  }
+visibility: {}
