@@ -1,0 +1,13 @@
+{
+    "name": "pantheon-se/iowa-theme",
+    "description": "A subtheme for State of Iowa",
+    "type": "drupal-custom-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Taylor",
+            "email": "kyle.taylor@pantheon.io"
+        }
+    ],
+    "require": {}
+}
