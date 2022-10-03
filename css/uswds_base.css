@@ -4,15 +4,15 @@ EXAMPLE: Expand theme to full width
 
  */
 @media (min-width: 64em) {
-    .usa-header--extended .usa-navbar
-    , .usa-header--extended .usa-nav__inner {
-        max-width: none;
-    }
+  .usa-header--extended .usa-navbar,
+  .usa-header--extended .usa-nav__inner {
+    max-width: none;
+  }
 }
 
-div.usa-banner__inner
-, div.grid-container {
-    max-width: none;
+div.usa-banner__inner,
+div.grid-container {
+  max-width: none;
 }
 
 /*
@@ -21,9 +21,9 @@ EXAMPLE: Fix small USWDS form size issue
 
  */
 @media (min-width: 30em) {
-    .usa-form {
-        max-width: none;
-    }
+  .usa-form {
+    max-width: none;
+  }
 }
 
 /*
@@ -32,5 +32,12 @@ EXAMPLE: Fix Big Footer issue with mobile
 
  */
 .usa-footer--big .usa-footer__primary-content--collapsible.hidden {
-    display: block;
+  display: block;
+}
+
+/*
+ Change Callout to Red
+*/
+.usa-hero__callout {
+  background-color: #761a1a;
 }
