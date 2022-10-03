@@ -34,10 +34,3 @@ EXAMPLE: Fix Big Footer issue with mobile
 .usa-footer--big .usa-footer__primary-content--collapsible.hidden {
   display: block;
 }
-
-/*
- Change Callout to Red
-*/
-.usa-hero__callout {
-  background-color: #761a1a;
-}
